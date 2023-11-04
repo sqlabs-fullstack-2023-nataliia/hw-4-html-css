@@ -1,0 +1,171 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Noto+Sans:ital,wght@0,100;0,200;0,500;1,500&family=Poppins:wght@300;400;500;600;700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400&display=swap');
+
+
+body {
+    /* font-family: Roboto, sans-serif; */
+    background: whitesmoke;
+}
+
+.sub_header {
+    font-family: Outfit, sans-serif;
+    font-size: 36px;
+    font-weight: 200;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 90px;
+}
+
+h4 {
+    font-family: Roboto, sans-serif;
+    font-weight: 900;
+    margin-bottom: -0.2rem;
+}
+
+h3 {
+    padding-top: 25px;
+}
+
+.text_content {
+    font-family: Montserrat, sans-serif;
+    font-size: 20px;
+    padding-right: 70px;
+    padding-top: 50px;
+}
+
+.font_roboto {
+    font-family: Roboto, sans-serif;
+}
+
+.header {
+    margin-top: -2.5rem;
+}
+
+.img_container {
+    margin-top: -2rem;
+}
+
+.link_btn {
+    text-decoration: none;
+    color: black;
+    font-family: Roboto, sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    border: 2px solid rgb(242, 190, 0);
+    border-radius: 100px;
+    padding: 10px 60px 10px 60px;
+}
+
+.link_btn:hover {
+    background: rgb(242, 190, 0);
+    border: 4px solid black;
+}
+
+.tab:hover {
+    color: rgb(242, 190, 0);
+}
+
+/* header */
+.brand_label {
+    font-weight: 900;
+}
+
+.yellow {
+    color: rgb(242, 190, 0);
+}
+
+.wight {
+    color: white;
+}
+
+.black {
+    color: black;
+}
+
+.header-navbar {
+    min-height: 80px;
+}
+
+.tab {
+    padding: 20px;
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 40px;
+}
+
+.tab_brand {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+/* main */
+.bg_black {
+    background: black;
+}
+
+.header_box {
+    text-align: center;
+    padding-top: 25px;
+}
+
+.main_box {
+    text-align: left;
+    padding-left: 8vw;
+    padding-top: 50px;
+    padding-bottom: 35px;
+    background: white;
+}
+
+.card {
+    border: none;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+}
+
+.card-text {
+    font-family: Montserrat, sans-serif;
+}
+
+.btn_container {
+    display: flex;
+    justify-content: center;
+}
+
+/* footer */
+.footer_conteiner {
+    background: black;
+    height: 100px;
+    padding: 20px 0px;
+}
+
+.footer_link {
+    text-decoration: none;
+    color: white;
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.footer_brend {
+    text-align: center;
+}
+
+.footer_links {
+    text-align: center;
+    padding: 20px;
+}
+
+.footer_link:hover {
+    color: rgb(242, 190, 0);
+    font-size: 30px;
+}
