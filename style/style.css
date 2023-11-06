@@ -5,7 +5,6 @@
 
 
 body {
-    /* font-family: Roboto, sans-serif; */
     background: whitesmoke;
 }
 
@@ -13,6 +12,12 @@ body {
     font-family: Outfit, sans-serif;
     font-size: 36px;
     font-weight: 200;
+}
+
+.img_center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 h1 {
@@ -45,10 +50,6 @@ h3 {
     margin-top: -2.5rem;
 }
 
-.img_container {
-    margin-top: -2rem;
-}
-
 .link_btn {
     text-decoration: none;
     color: black;
@@ -58,6 +59,7 @@ h3 {
     border: 2px solid rgb(242, 190, 0);
     border-radius: 100px;
     padding: 10px 60px 10px 60px;
+    max-height: 60px;
 }
 
 .link_btn:hover {
@@ -124,12 +126,7 @@ h3 {
 .card {
     border: none;
     border-radius: 20px;
-    margin: 20px;
-}
-
-.cards {
-    display: flex;
-    justify-content: center;
+    padding: 10px;
 }
 
 .card-text {
@@ -145,7 +142,12 @@ h3 {
 .footer_conteiner {
     background: black;
     height: 100px;
-    padding: 20px 0px;
+    margin-top: 20px;
+}
+
+.col-md-12,
+.footer_conteiner {
+    background: black;
 }
 
 .footer_link {
@@ -158,14 +160,19 @@ h3 {
 
 .footer_brend {
     text-align: center;
+    padding-top: 15px;
 }
 
 .footer_links {
     text-align: center;
-    padding: 20px;
+    padding: 35px;
+
 }
 
 .footer_link:hover {
     color: rgb(242, 190, 0);
-    font-size: 30px;
+}
+
+.navbar-brand.wight:hover {
+    color: white;
 }
